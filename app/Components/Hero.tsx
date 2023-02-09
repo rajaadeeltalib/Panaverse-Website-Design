@@ -1,9 +1,11 @@
 "use client";
+import Hero from '../../public/hero-image.png';
+import Image from 'next/image';
+
 import {
     Button,
     Flex,
     Heading,
-    Image,
     Stack,
     Text,
     useBreakpointValue,
@@ -63,12 +65,9 @@ import {
         </Flex>
         <Flex flex={1}>
           <Image
-            alt={'Login Image'}
-            objectFit={'cover'}
-            src={
-              'https://raxr-react.envytheme.com/images/home-two/main-image2.png'
-            }
-          />
+            alt={'Hero Image'}
+            src={Hero}
+          ></Image>
         </Flex>
       </Stack>
     );
