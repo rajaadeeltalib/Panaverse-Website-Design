@@ -180,7 +180,7 @@ const Features = () => {
               top="-1.5rem"
               boxShadow="lg"
             >
-              {feature.icon}
+              <>{feature.icon}</>
             </Flex>
             <chakra.h3 fontWeight="semibold" fontSize="2xl" mt={6}>
               {feature.heading}
