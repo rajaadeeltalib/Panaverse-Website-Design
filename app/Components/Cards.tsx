@@ -9,8 +9,7 @@ import {
   chakra,
   Text,
   SimpleGrid,
-  Flex,
-  useColorModeValue
+  Flex
 } from '@chakra-ui/react';
 
 interface IFeature {
@@ -162,7 +161,7 @@ const Features = () => {
         {features.map((feature, index) => (
           <Box
             key={index}
-            bg={useColorModeValue('gray.100', 'gray.700')}
+            bg={"gray.100"}
             p={6}
             rounded="lg"
             textAlign="center"
@@ -189,7 +188,7 @@ const Features = () => {
             <Text fontSize="md" mt={4}>
               {feature.content}
             </Text>
-            <Link href="/Syllabus" mt={4} fontSize="sm" style={{color: '#00B0EE'}}>
+            <Link href="/Syllabus"  style={{color: '#00B0EE'}}>
               Learn more →
             </Link>
           </Box>
