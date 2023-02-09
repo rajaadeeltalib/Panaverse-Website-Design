@@ -1,7 +1,7 @@
 "use client";
 
 import { Container, Text, VStack, Stack, Avatar, Icon, useColorModeValue, Box } from '@chakra-ui/react';
-// Here we have used react-icons package for the icon
+
 import { FaQuoteRight } from 'react-icons/fa';
 interface TestimonialAttributes {
   username: string;

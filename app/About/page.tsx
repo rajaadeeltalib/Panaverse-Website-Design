@@ -1,8 +1,7 @@
 "use client";
-import { Box, chakra, Container, Text } from '@chakra-ui/react'
+import { Box, Text } from '@chakra-ui/react'
 import React from 'react'
-import Header from '../Components/Header'
-import Navbar from '../Components/Navbar'
+
 
 export default function About() {
   return (

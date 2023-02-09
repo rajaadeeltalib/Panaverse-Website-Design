@@ -1,7 +1,4 @@
 
-import Navbar from './Components/Navbar'
-import Explorecourse from './Components/explorecourse'
-import Header from './Components/Header'
 import Hero from './Components/Hero'
 import About from './Components/About'
 import Timeline from './Components/Timeline'
@@ -13,9 +10,7 @@ import Footer from './Components/Footer'
 
 export default function Home() {
   return (
-    <div>
-    {/* <Navbar /> */}
-    
+    <div>      
     <Hero />
     <About />
     <Timeline />
