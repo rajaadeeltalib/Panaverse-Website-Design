@@ -56,7 +56,7 @@ export default function LargeWithLogoLeft() {
             </Box>
             <Link href={'/'} >Home</Link>
             <Link href={'/About'}>About</Link>
-            <Link href={'/Syllabous'}>Syllabous</Link>
+            <Link href={'/Syllabus'}>Syllabus</Link>
             <Link href={'/Faculty'}>Faculty</Link>
             <Link href={'/Contact'}>Contact</Link>
           </Stack>

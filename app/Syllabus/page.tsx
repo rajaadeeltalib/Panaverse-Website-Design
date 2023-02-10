@@ -1,6 +1,7 @@
 "use client";
 import { Box, Flex, Text } from '@chakra-ui/react'
 import React from 'react'
+import Footer from '../Components/Footer'
 
 
 
@@ -1017,6 +1018,7 @@ export default function Cources() {
         <p><a href="https://www.amazon.com/Network-Programmability-Automation-Networking-Technology/dp/1587145146/ref=sr_1_3">https://www.amazon.com/Network-Programmability-Automation-Networking-Technology/dp/1587145146/ref=sr_1_3</a>&nbsp;</p>
 
 </Box>
+<Footer />
     </>
   )
 }

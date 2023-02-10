@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react'
+import Footer from '../Components/Footer'
 
 
 import {
@@ -33,7 +34,7 @@ import { BsGithub, BsDiscord, BsPerson } from 'react-icons/bs';
 
 export default function contact() {
   return (
-    
+    <>
     <Container bg="white" maxW="full" mt={0} centerContent overflow="hidden" >
       
       <Flex>
@@ -171,6 +172,8 @@ export default function contact() {
       </Flex>
       
     </Container>
+    <Footer />
+    </>
     
   );
 }

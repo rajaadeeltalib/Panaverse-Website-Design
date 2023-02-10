@@ -2,6 +2,7 @@
 import { ChakraProvider } from '@chakra-ui/react'
 import Header from './Components/Header';
 
+
 export default function RootLayout({
   children,
 }: {
@@ -17,8 +18,10 @@ export default function RootLayout({
       <body>
         <ChakraProvider>
         <Header />
+        
         {children}
         </ChakraProvider>
+        
         </body>
     </html>
   )

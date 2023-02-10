@@ -1,5 +1,6 @@
 "use client";
 import React from 'react'
+import Footer from '../Components/Footer'
 
 
 import {
@@ -59,6 +60,7 @@ const testimonials: TestimonialAttributes[] = [
 
 const Testimonials = () => {
   return (
+    <>
     <Container maxW="5xl" py={10} px={6} bg={useColorModeValue('gray.200', 'gray.600')} marginTop={"10"} marginBottom={"10"}>
       <Flex justify="center" mb={8}>
         <chakra.h3 fontSize="3xl" fontWeight="bold" mb={3} textAlign="center" textColor={"#00B0EE"}>
@@ -121,7 +123,10 @@ const Testimonials = () => {
           </Stack>
         ))}
       </SimpleGrid>
+      
     </Container>
+    <Footer />
+    </>
   );
 };
 
