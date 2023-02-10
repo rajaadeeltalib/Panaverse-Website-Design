@@ -67,7 +67,7 @@ export default function LargeWithLogoLeft() {
             <Link href={'https://www.piaic.org/'}>PIAIC</Link>
             <Link href={'https://www.panaverse.co/'}>Panaverse</Link>
             <Link href={'https://portal.piaic.org/signup'}>Apply Now</Link>
-            <Link href={'/Syllabous'}>Artificial Intelligence</Link>
+            <Link href={'/Syllabous'}>AI</Link>
             <Link href={'/Syllabous'}>CNC</Link>            
           </Stack>
           <Stack align={'flex-start'}>

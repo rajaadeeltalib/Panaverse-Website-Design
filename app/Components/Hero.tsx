@@ -1,6 +1,7 @@
 "use client";
 import Hero from '../../public/hero-image.png';
 import Image from 'next/image';
+import { motion } from "framer-motion";
 
 import {
     Button,
@@ -38,8 +39,7 @@ import {
               </Text>{' '}
             </Heading>
             <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
-              The project board is an exclusive resource for contract work. Its
-              perfect for freelancers, agencies, and moonlighters.
+            Certified Web 3.0 and Metaverse Developer. A One and Quarter Years Panaverse DAO Earn as you Learn Program Getting Ready for the Next Generation of the Internet.
             </Text>
             <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
             <Button
@@ -63,12 +63,22 @@ import {
             </Stack>
           </Stack>
         </Flex>
+        <motion.div
+            initial={{ rotate: -10}}
+            animate={{ rotate: 10 }}
+            transition={{
+              duration: 5,
+              repeat: Infinity,
+              repeatType: "reverse",
+            }}
+          >
         <Flex flex={1}>
-          <Image
+          <Image width={650}                           
             alt={'Hero Image'}
             src={Hero}
           ></Image>
         </Flex>
+        </motion.div>
       </Stack>
     );
   }
