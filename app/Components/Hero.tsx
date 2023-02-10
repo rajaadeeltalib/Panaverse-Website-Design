@@ -1,7 +1,7 @@
 "use client";
 import Hero from '../../public/hero-image.png';
 import Image from 'next/image';
-import { motion } from "framer-motion";
+
 
 import {
     Button,
@@ -63,22 +63,14 @@ import {
             </Stack>
           </Stack>
         </Flex>
-        <motion.div
-            initial={{ rotate: -10}}
-            animate={{ rotate: 10 }}
-            transition={{
-              duration: 5,
-              repeat: Infinity,
-              repeatType: "reverse",
-            }}
-          >
+        
         <Flex flex={1}>
-          <Image width={650}                           
+          <Image                            
             alt={'Hero Image'}
             src={Hero}
           ></Image>
         </Flex>
-        </motion.div>
+        
       </Stack>
     );
   }
